@@ -4,6 +4,7 @@ const hre = require("hardhat");
 async function getBalance(address) {
   const balanceBigInt = await hre.ethers.provider.getBalance(address);
   return hre.ethers.utils.formatEther(balanceBigInt);
+  sssss
 }
 
 // Logs the Ether balances for a list of addresses.
