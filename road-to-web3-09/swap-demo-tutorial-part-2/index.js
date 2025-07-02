@@ -2,7 +2,7 @@ async function connect() {
     if (typeof window.ethereum !== "undefined") {
         try {
           console.log("connecting");
-          await ethereum.request({ method: "eth_requestAccounts" });
+          await ethereum.request({ method: "eth_requestAccounts" });sss
         } catch (error) {
           console.log(error);
         }
