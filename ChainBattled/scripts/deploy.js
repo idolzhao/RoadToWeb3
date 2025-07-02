@@ -4,7 +4,7 @@ const main = async () => {
         "ChainBattles"
       );
       const nftContract = await nftContractFactory.deploy();
-      await nftContract.deployed();
+      await nftContract.deployed();aaa
   
       console.log("Contract deployed to:", nftContract.address);
       process.exit(0);
